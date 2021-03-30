@@ -1,6 +1,6 @@
 #include "EventManagerMain.h"
 
-EventManager evMan;
+EventManagerMain evMan;
 void setup() {
   Serial.begin(9600);
   Serial.println("basladi");

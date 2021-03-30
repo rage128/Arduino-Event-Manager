@@ -1,4 +1,5 @@
 #include "EventCon.h"
+class EventManagerMain{
 typedef void (*eventFunc);
 
 public: 
