@@ -9,7 +9,7 @@ eventType (bool)          : Hedef Pinin tetiklenmesi durumunda hedef fonksiyonun
 eventTarget (bool)        : Hedef pinin hangi durumda tetiklenmesi koşuludu belirtir. HIGH/LOW,<br>
 targetFunction (function) : Hedef pin tetiklendiğinde çalışacak olan fonksiyonu belirtir.<br>
 
-<b>Örnek Kullanım :</b>
+<b>Örnek Kullanım :</b><br>
 #include "EventManager.h"
 
 EventManager evMan;
