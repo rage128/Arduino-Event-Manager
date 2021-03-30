@@ -14,9 +14,10 @@ void loop() {
 }
  
 void calis(){
-  Serial.println("1. olan calistı");
+  Serial.println("1. olan ");
+  
 }
 
 void calis2(){
-  Serial.println("2. olan calıstı");
+  Serial.println("2. olan ");
 }
