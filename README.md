@@ -4,10 +4,10 @@ Sürekli tekrar eden pin eventlerini debouncing kontrolüde yaparak kullanabilme
 
 EventManager.addEventListener(pinNumber, eventType, eventTarget, targetFunction);
 
-pinNumar (int)            : Arduino üzerindeki dinlenmek istenen pin numarası.
-eventType (bool)          : Hedef Pinin tetiklenmesi durumunda hedef fonksiyonun false durumunda 1 kez, true durumunde sürekli çalışmasını sağlar.
-eventTarget (bool)        : Hedef pinin hangi durumda tetiklenmesi koşuludu belirtir. HIGH/LOW,
-targetFunction (function) : Hedef pin tetiklendiğinde çalışacak olan fonksiyonu belirtir.
+pinNumar (int)            : Arduino üzerindeki dinlenmek istenen pin numarası.<br>
+eventType (bool)          : Hedef Pinin tetiklenmesi durumunda hedef fonksiyonun false durumunda 1 kez, true durumunde sürekli çalışmasını sağlar.<br>
+eventTarget (bool)        : Hedef pinin hangi durumda tetiklenmesi koşuludu belirtir. HIGH/LOW,<br>
+targetFunction (function) : Hedef pin tetiklendiğinde çalışacak olan fonksiyonu belirtir.<br>
 
 Örnek Kullanım :
 #include "EventManager.h"
