@@ -25,3 +25,4 @@ void loop(){
 void tFunc(){
   Serial.println ("tusa basıldı");
 }
+ 
