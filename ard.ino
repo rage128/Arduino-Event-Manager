@@ -5,8 +5,8 @@ void setup() {
   Serial.begin(9600);
   Serial.println("basladi");
 
-  evMan.addEventListener(5,false,0, calis);
-  evMan.addEventListener(7,true,0, calis2);
+  evMan.addEventListener(5,false,0, &calis);
+  evMan.addEventListener(7,true,0, &calis2);
 }
 
 void loop() {

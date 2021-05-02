@@ -18,7 +18,8 @@ public:
   
   void loop(){
     for(uint8_t i=0;i<currentCount;i++){
-      bool tmpRead = digitalRead(events[i].pName);
+      
+	bool tmpRead = digitalRead(events[i].pName);
 
     if(tmpRead != events[i].lState){
         events[i].lState  = tmpRead;

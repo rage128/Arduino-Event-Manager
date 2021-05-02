@@ -1,7 +1,5 @@
 class EventCon{
 
-typedef void (*eventFunc);
-
   public:
   uint8_t  pName;
   bool eType;
@@ -17,15 +15,20 @@ typedef void (*eventFunc);
   void (*fName)();
   
   EventCon(){};
-  EventCon(uint8_t  argPinName, bool argEventType, bool argTarget, eventFunc argEventFunc){
+  EventCon(uint8_t  argPinName, bool argEventType, bool argTarget, unsigned int argEventFunc){
  
+  Serial.println("test");
+  Serial.println(argEventFunc);
+  
+  
   pName        = argPinName;
   eType        = argEventType;
-  fName        = argEventFunc;
+  fName        = 699; //argEventFunc;
   target       = argTarget;
-    
+  
+  //fName();
   }
   void call(){
-    fName();
+    //fName();
   }
 };
